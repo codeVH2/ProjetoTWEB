@@ -1,15 +1,20 @@
+body {
+  margin: 0;
+}
+
 header {
-  padding: 0 1.5em;
-  height: 60px;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-size: 14px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: rgba(255, 255, 255, 0.66);
-  background-color: black;
+  background-color: #000;
 }
-header .links_listtop {
+header .links_listheader {
   color: rgba(255, 255, 255, 0.66);
   text-decoration: none;
 }
-header .links_listtop:hover {
+header .links_listheader:hover {
   color: white;
 }
 header #sapo_logo {
@@ -18,8 +23,9 @@ header #sapo_logo {
 }
 header .cabecalho {
   display: flex;
+  width: 100%;
 }
-header .listtop {
+header .listheader {
   padding-top: 0px;
   padding-left: 5px;
   margin: auto;
@@ -28,4 +34,24 @@ header .listtop {
   list-style: none;
   width: 100%;
   height: 100%;
+}
+
+.header1 {
+  height: 100px;
+  background-color: #f3f2ed;
+  padding-left: 250px;
+  padding-right: 250px;
+  display: flex;
+  border: solid 2px blue;
+  justify-content: space-between;
+}
+.header1 #img2header {
+  padding: 20px;
+}
+.header1 .listb {
+  display: flex;
+  gap: 60px;
+  padding: 20px;
+  border: solid 2px green;
+  list-style-type: none;
 }/*# sourceMappingURL=main.css.map */
