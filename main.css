@@ -3,6 +3,8 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
   padding-left: 250px;
   padding-right: 250px;
   font-size: 14px;
@@ -37,21 +39,29 @@ header .listheader {
 }
 
 .header1 {
-  height: 100px;
-  background-color: #f3f2ed;
   padding-left: 250px;
   padding-right: 250px;
-  display: flex;
-  border: solid 2px blue;
-  justify-content: space-between;
+  background-color: #f3f2ed;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: 100px;
 }
 .header1 #img2header {
-  padding: 20px;
+  display: flex;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.header1 #listbottom {
+  display: flex;
+  align-items: center;
+  grid-column-start: 8;
+  grid-column-end: 9;
 }
 .header1 .listb {
+  color: #6f6d66;
+  font-family: "Roboto", sans-serif;
   display: flex;
-  gap: 60px;
-  padding: 20px;
-  border: solid 2px green;
-  list-style-type: none;
+  list-style: none;
+  gap: 45px;
 }/*# sourceMappingURL=main.css.map */
