@@ -38,6 +38,8 @@ header .listheader {
   height: 100%;
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
+/* HEADER 1*/
 .header1 {
   padding-left: 250px;
   padding-right: 250px;
@@ -45,6 +47,7 @@ header .listheader {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   grid-template-rows: 100px;
+  /*da listbottom*/
 }
 .header1 #img2header {
   display: flex;
@@ -57,11 +60,34 @@ header .listheader {
   align-items: center;
   grid-column-start: 8;
   grid-column-end: 9;
+  /*dropdown menu*/
 }
-.header1 .listb {
+.header1 #listbottom #principal {
   color: #6f6d66;
   font-family: "Roboto", sans-serif;
   display: flex;
   list-style: none;
   gap: 45px;
-}/*# sourceMappingURL=main.css.map */
+  padding: 0;
+}
+.header1 #listbottom #principal li a {
+  color: inherit;
+  text-decoration: none;
+}
+.header1 #listbottom #principal li a:hover {
+  transition: 200ms;
+  padding: 1em;
+  background-color: #ffffff;
+  border: 1px solid #d6d3c5;
+  border-radius: 3px;
+}
+.header1 #listbottom #dp-menu-content {
+  display: none;
+}
+.header1 #listbottom .dp-menu:hover #dp-menu-content {
+  display: block;
+  position: absolute;
+  list-style: none;
+}
+
+/*---------------------------------------------------------------------------------------------*//*# sourceMappingURL=main.css.map */
