@@ -72,7 +72,7 @@ header .listheader {
 }
 .header1 #listbottom #principal li a:hover {
   transition: 200ms;
-  padding: 1em;
+  padding: 0.5em;
   background-color: #ffffff;
   border: 1px solid #d6d3c5;
   border-radius: 3px;
@@ -88,7 +88,7 @@ header .listheader {
 
 /*---------------------------------------------------------------------------------------------*/
 /*ante-penultimo footer*/
-#anunciar {
+#footer1 {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   grid-template-rows: auto;
@@ -99,7 +99,7 @@ header .listheader {
   color: #ffffff;
   box-sizing: border-box;
 }
-#anunciar p {
+#footer1 p {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   font-weight: 300;
@@ -107,14 +107,14 @@ header .listheader {
   margin-bottom: 0.75em;
   line-height: 1.2em;
 }
-#anunciar h3 {
+#footer1 h3 {
   font-size: 1.6em;
   color: #e4e2d9;
   font-weight: 200;
   text-transform: uppercase;
   margin-bottom: 0.25em;
 }
-#anunciar button {
+#footer1 button {
   color: #ffffff;
   font-weight: 300px;
   padding: 5px;
@@ -124,16 +124,16 @@ header .listheader {
   background: #0f9585;
   border: none;
 }
-#anunciar button:hover {
+#footer1 button:hover {
   transition: 0.25s;
   background-color: #0a675c;
 }
-#anunciar #caixa1 {
+#footer1 #caixa1 {
   position: relative;
   grid-column-start: 2;
   grid-column-end: 3;
 }
-#anunciar #caixa2 {
+#footer1 #caixa2 {
   position: relative;
   grid-column-start: 5;
   grid-column-end: 6;
