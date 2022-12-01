@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+main {
+  display: grid;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -84,6 +88,7 @@ header .listheader {
   display: block;
   position: absolute;
   list-style: none;
+  padding: 0;
 }
 /*---------------------------------------------------------------------------------------------*/
 /*ante-penultimo footer*/
