@@ -2,6 +2,16 @@ body{
     margin: 0;
 }
 
+.celulacentral{
+    
+}
+
+main{
+display: grid;
+
+
+}
+
 header{
     display: flex;
     align-items: center;
@@ -106,6 +116,7 @@ header{
             display: block;
             position: absolute;
             list-style: none;
+            padding: 0;
             
         
         }           
