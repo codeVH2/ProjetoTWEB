@@ -132,6 +132,230 @@ header{
 }
 
 /*---------------------------------------------------------------------------------------------*/
+/*form*/
+
+.geral_form{
+    background-color: #42413d;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 15em 0 15em;
+    margin-top: 10em;
+    
+
+    form{
+        display: grid;
+        column-gap: 40px;  
+        row-gap: 20px;
+        width: 50%;
+    }
+
+    .grid_form{
+    padding-top: 5%;
+    grid-template-columns: repeat(4, fr);
+    grid-template-rows: repeat(5, 5vw);
+    max-width: 100%;
+    height: 100%;
+    
+    
+        .form_tipo{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        
+
+        select{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            width: 100%;
+            border-radius: 5px;
+        }
+        }
+
+        .form_marca{
+        grid-column: 3/5;
+        grid-row: 1/2;
+
+        select{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            width: 100%;
+            border-radius: 5px  ;
+        }
+        }
+
+        #item-3{
+        grid-column: 1/3;
+        grid-row: 2/3;
+
+        select{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            width: 100%;
+            border-radius: 5px  ;
+        }
+        }
+
+        #item-4{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        
+        select{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            border-radius: 5px ;
+        }
+        }
+
+        #item-5{
+        grid-column: 4/5;
+        grid-row: 2/3;
+
+        select{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            border-radius: 5px;
+        }
+        }
+        #item-6{
+        grid-column: 1/2;
+        grid-row: 3/4;
+
+        select{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            border-radius: 5px;
+        }
+        }
+
+        #item-7{
+        grid-column: 2/3;
+        grid-row: 3/4;
+
+        select{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            border-radius: 5px;
+        }
+        }
+
+        #item-8{
+        grid-column: 3/5;
+        grid-row: 3/4;
+
+        select{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            width: 100%;
+            border-radius: 5px ;
+        }
+        }
+
+        #item-9{
+        grid-column: 1/3;
+        grid-row: 4/5;
+
+        select{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            width: 100%;
+            border-radius: 5px  ;
+        }
+        }
+        #item-10{
+        grid-column: 3/5;
+        grid-row: 4/5;
+        padding-top: 18px;
+
+        input{
+            font-size: .9em;
+            padding-right: 30px;
+            padding: 0 6px;
+            height: 36px;
+            line-height: 36px;
+            font-size: .9em;
+            width: 100%;
+            border-radius: 5px;
+            background-color: #0f9585;
+            color: white;
+        }
+    }
+        #item-11{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        color: white;
+        }
+        #item-12{
+        grid-column: 3/5;
+        grid-row: 5/6;
+        color: #0f9585;
+
+        #zero_estranho{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            line-height: 16px;
+            background: #d6d3c5;
+            color: #42413d;
+            font-size: .8em;
+            font-weight: 500;
+            text-align: center;
+            border-radius: 8px;
+            background-clip: padding-box;
+            margin: 0 3px;
+            top: -2px;
+            position: relative;
+            background: #0f9585;
+            color: white;
+        }
+        }
+    label{
+    font-size: .7em;
+    color: #e4e2d9;
+    font-weight: 300;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    margin-left: 6px;
+    text-transform: uppercase;
+    }
+}
+}
+/*---------------------------------------------------------------------------------------------*/
 
 /*ante-penultimo footer*/
 
