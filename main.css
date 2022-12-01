@@ -27,7 +27,7 @@ header #sapo_logo {
 }
 header .cabecalho {
   display: flex;
-  width: 100%;
+  max-width: 100%;
 }
 header .listheader {
   padding-top: 0px;
@@ -36,7 +36,7 @@ header .listheader {
   display: flex;
   gap: 10px;
   list-style: none;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 
