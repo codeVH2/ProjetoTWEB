@@ -2,8 +2,26 @@ body {
   margin: 0;
 }
 
+.celulacentral {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
 main {
   display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+}
+
+#header_e {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background-color: #000;
+}
+
+#header_d {
+  grid-row: 1/2;
+  grid-column: 3/4;
+  background-color: #000;
 }
 
 header {
