@@ -92,14 +92,6 @@ header{
             
             
             }
-
-            a:hover{
-                transition: 200ms;
-                padding: 0.5em;
-                background-color: #ffffff;
-                border: 1px solid #d6d3c5;
-                border-radius: 3px;
-            }
             
         }
     }
@@ -111,12 +103,19 @@ header{
     }
 
     .dp-menu:hover{
+        
 
         #dp-menu-content{
+            background-color:  #ffffff;
             display: block;
             position: absolute;
             list-style: none;
             padding: 0;
+
+            li{
+                border: 1px solid #a2a099;;
+                padding: 0.5em;
+            }
             
         
         }           
