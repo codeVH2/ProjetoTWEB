@@ -311,7 +311,6 @@ header .listheader {
 .car-card {
   width: 22%;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 .car-card .car-img {
   max-width: 100%;
@@ -319,7 +318,69 @@ header .listheader {
 .car-card .car-description {
   border: 1px solid grey;
 }
+.car-card .car-description .car-header {
+  width: 100%;
+  padding-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+  color: #42413d;
+  font-size: 1.1em;
+  font-weight: 500;
+  border-bottom: 1px solid #e4e2d9;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 0em;
+}
+.car-card .car-description .car-info {
+  box-sizing: border-box;
+  width: 40%;
+  flex-grow: 0;
+}
+.car-card .car-description .car-info .kilometros {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 0;
+  color: #42413d;
+  text-decoration: none;
+}
+.car-card .car-description .car-info .ano-fuel {
+  color: #42413d;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.car-card .car-description .preco {
+  display: block;
+  box-sizing: border-box;
+}
+.car-card .car-description .preco .preco-direita {
+  justify-content: flex-end;
+  color: #0f9585;
+  font-size: 0.9em;
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 0;
+}
+.car-card .car-description .preco .preco-direita .unidades {
+  box-sizing: border-box;
+  font-size: 2.5em;
+  font-weight: 300;
+  letter-spacing: -0.05em;
+  line-height: 1em;
+  display: inline-block;
+  float: right;
+}
 
+/*---------------------------------------------------------------------------------------------*/
 /*ante-penultimo footer*/
 #footer1 {
   display: grid;
