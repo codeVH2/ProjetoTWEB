@@ -308,6 +308,18 @@ header .listheader {
 
 /*---------------------------------------------------------------------------------------------*/
 /*Car-Cards*/
+.car-card {
+  width: 22%;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.car-card .car-img {
+  max-width: 100%;
+}
+.car-card .car-description {
+  border: 1px solid grey;
+}
+
 /*ante-penultimo footer*/
 #footer1 {
   display: grid;

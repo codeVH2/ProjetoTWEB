@@ -371,7 +371,17 @@ header{
 /*Car-Cards*/
 
 
-
+.car-card{
+    width: 22%;
+    box-sizing: border-box;
+    border: 1px solid red;
+    .car-img{
+        max-width: 100%;
+    }
+    .car-description{
+        border: 1px solid grey;
+    }
+}
 
 
 
