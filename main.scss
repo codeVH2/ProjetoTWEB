@@ -378,7 +378,9 @@ header{
     .car-img{
         max-width: 100%;
     }
+
     .car-description{
+        
        border: 1px solid grey;
         .car-header{
             width: 100%;
@@ -394,19 +396,22 @@ header{
             margin-bottom: 0em;
         }
 
+        .car-all{
+            display: flex;
+        }
+
         .car-info{
-            box-sizing: border-box;
-            width: 40%;
-            flex-grow: 0;
+
+            
 
             .kilometros{
                 font-family: 'Roboto', sans-serif;
-                font-size: 0.9em;
-                margin-bottom: 0;
+                font-size: 1em;
+                margin: 0;
                 text-overflow: ellipsis;
                 white-space: nowrap;
                 overflow: hidden;
-                margin-top: 0;
+                margin:0;
                 color: #42413d;
                 text-decoration: none;
             }
@@ -414,8 +419,8 @@ header{
             .ano-fuel{
                 color: #42413d;
                 font-family: 'Roboto', sans-serif;
-                font-size: .9em;
-                margin-bottom: 0;
+                font-size: 1em;
+                margin:0;
                 text-overflow: ellipsis;
                 white-space: nowrap;
                 overflow: hidden;
@@ -423,12 +428,11 @@ header{
         }
 
         .preco{ 
-            display: block;
-            box-sizing: border-box;
+            
+            margin-left: auto;
             
             .preco-direita{
-                justify-content: flex-end;
-                
+
                 color: #0f9585;
                 font-size: .9em;
                 margin-bottom: 0;
@@ -436,16 +440,11 @@ header{
                 white-space: nowrap;
                 overflow: hidden;
                 margin-top: 0;
+                font-size: 2.5em;
+                font-weight: 300;
+                letter-spacing: -0.05em;
+                line-height: 1em;
                 
-                .unidades{
-                    box-sizing: border-box;
-                    font-size: 2.5em;
-                    font-weight: 300;
-                    letter-spacing: -0.05em;
-                    line-height: 1em;
-                    display: inline-block;
-                    float: right;
-                }
             }
         }
     }

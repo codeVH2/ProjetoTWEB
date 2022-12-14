@@ -331,37 +331,33 @@ header .listheader {
   overflow: hidden;
   margin-bottom: 0em;
 }
-.car-card .car-description .car-info {
-  box-sizing: border-box;
-  width: 40%;
-  flex-grow: 0;
+.car-card .car-description .car-all {
+  display: flex;
 }
 .car-card .car-description .car-info .kilometros {
   font-family: "Roboto", sans-serif;
-  font-size: 0.9em;
-  margin-bottom: 0;
+  font-size: 1em;
+  margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  margin-top: 0;
+  margin: 0;
   color: #42413d;
   text-decoration: none;
 }
 .car-card .car-description .car-info .ano-fuel {
   color: #42413d;
   font-family: "Roboto", sans-serif;
-  font-size: 0.9em;
-  margin-bottom: 0;
+  font-size: 1em;
+  margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 .car-card .car-description .preco {
-  display: block;
-  box-sizing: border-box;
+  margin-left: auto;
 }
 .car-card .car-description .preco .preco-direita {
-  justify-content: flex-end;
   color: #0f9585;
   font-size: 0.9em;
   margin-bottom: 0;
@@ -369,15 +365,10 @@ header .listheader {
   white-space: nowrap;
   overflow: hidden;
   margin-top: 0;
-}
-.car-card .car-description .preco .preco-direita .unidades {
-  box-sizing: border-box;
   font-size: 2.5em;
   font-weight: 300;
   letter-spacing: -0.05em;
   line-height: 1em;
-  display: inline-block;
-  float: right;
 }
 
 /*---------------------------------------------------------------------------------------------*/
