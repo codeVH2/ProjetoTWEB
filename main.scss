@@ -46,9 +46,9 @@ header{
 /*-----------------------------------------------------------------------------------------------------*/
 
 /* HEADER 1*/
-
-.header1{
+#header1-background{
     background-color: #f3f2ed;
+.header1{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: 100px;
@@ -122,6 +122,7 @@ header{
     } /*da listbottom*/
         
     
+}
 }
 
 /*---------------------------------------------------------------------------------------------*/
