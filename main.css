@@ -1,5 +1,8 @@
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font: normal normal normal 1em/1.45 Roboto, Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -356,25 +359,26 @@ header .listheader {
 #grid-car .car-card {
   width: 16.7vw;
   box-sizing: border-box;
+  border: 1px;
 }
 #grid-car .car-card .car-img {
   max-width: 100%;
 }
 #grid-car .car-card .car-description {
   border: 1px solid grey;
-}
-#grid-car .car-card .car-description .car-header {
+  padding: 5px;
+  margin: 0px;
   width: 100%;
-  padding-bottom: 0;
-  font-family: "Roboto", sans-serif;
-  margin-top: 0;
-  color: #42413d;
+}
+#grid-car .car-card .car-description .car-header h3 {
   font-size: 1.1em;
   font-weight: 500;
+  padding-bottom: 0.4em;
   border-bottom: 1px solid #e4e2d9;
+  text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  margin-bottom: 0em;
+  margin-bottom: 0.25em;
 }
 #grid-car .car-card .car-description .car-all {
   display: flex;
