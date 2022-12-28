@@ -504,7 +504,7 @@ footer {
     border: none;
   }
   #footer1 {
-    margin-top: 25%;
+    margin-top: 4%;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: auto;
@@ -594,6 +594,154 @@ footer {
       }
     }
   }
+
+  #footer2-geral{
+    padding: 2em 0;
+    background: #42413d;
+
+    #footer2-primeira{
+        display: flex;
+
+    #autosapo_footer2{
+        display: flex;
+        margin-left: 14%;
+    
+    #sapo_footer{
+        color: #d6d3c5;
+        text-decoration: none;
+        font-size: 2.8em; 
+        text-transform: uppercase;
+        font-weight:  600;
+        font-weight: bold;
+    }
+    #auto_footer{
+        color: #d6d3c5;
+        text-decoration: none;
+        font-size: 2.8em; 
+        text-transform: uppercase;
+        font-weight: 50;
+
+    }
+}
+    #redes_sociais{
+        margin-left: auto;
+        margin-right: 14%;
+        display: flex;
+
+        span{
+            color:white;
+            margin-top: 13px;
+            margin-right: 10px;
+        }
+
+            #fblogo{
+            width: 46px;
+            height: 46px;
+            line-height: 55px;
+            text-align: center;
+            padding: 0;
+            border-radius: 3px;
+            background-clip: padding-box;
+            background-color: #6998C9;
+            color: white;
+            margin-left: 1em;
+
+            }
+            #twttlogo{
+            width: 46px;
+            height: 46px;
+            line-height: 55px;
+            text-align: center;
+            padding: 0;
+            border-radius: 3px;
+            background-clip: padding-box;
+            background-color: #64abe5;
+            color: white;
+            }
+        }
+    }
+
+    #listas_footer2{
+        display:flex;     
+        justify-content: space-between;
+        border-top: 1px solid #6f6d66;
+        margin-left: 14%;
+        margin-right: 14%; 
+        max-width: 100%;
+        flex-wrap: wrap;
+
+    
+        .footer2_listas{
+                li{
+                    list-style-type: none;
+                    color: #a2a099;
+                    font-size: 1.1em;
+                    padding: 0;
+                    text-decoration: none;
+                    line-height: 1.3em;
+                }
+
+                li:first-child{
+                    text-transform:uppercase;
+                    font-weight: 300;
+                    font-size: large;
+                    color: #F5F5DC	;
+                }
+
+            }
+        }
+        
+        #lista_horizontal{
+            margin-left: 14%;
+            margin-right: 14%;
+            min-height: 30px;
+            padding: 0.5em 0;
+            list-style: none;
+            border-top: 1px solid #6f6d66;
+        }
+        #lista_horizontal2{
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            li{
+                margin-right: 20px;
+                display: block;
+                color: #89877f;
+                text-transform: uppercase;
+                font-size: .8em;
+                text-decoration: none;
+            }
+        }
+
+        #ultimo_footer{
+            display: flex;
+            border-top: 1px solid #6f6d66;
+            margin-left:14%;
+            margin-right:14%;
+
+
+        
+        #autosapofooterimg{
+            width:140px;
+            height:100px;
+        }
+
+        #paragrafo_f2{
+            line-height: 60px;
+            margin-left: auto;
+            margin-top: 20px;
+            color: #89877f;
+
+            span{
+                color: white;
+                font-weight: bold;
+
+            }
+        
+        }
+    }
+}
 }
 
 /*---------------------------------------------------------------------------------------------*/
