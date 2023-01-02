@@ -15,6 +15,9 @@ header {
   color: rgba(255, 255, 255, 0.66);
   background-color: #000;
 }
+header span {
+  display: none;
+}
 header .links_listheader {
   color: rgba(255, 255, 255, 0.66);
   text-decoration: none;
@@ -41,6 +44,14 @@ header .listheader {
   list-style: none;
   max-width: 100%;
   height: 100%;
+}
+@media (max-width: 700px) {
+  header li {
+    display: none;
+  }
+  header span {
+    display: block;
+  }
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -577,7 +588,7 @@ footer #footer2-geral #footer2-primeira #redes_sociais #fblogo {
   padding: 0;
   border-radius: 3px;
   background-clip: padding-box;
-  background-color: #6998C9;
+  background-color: #6998c9;
   color: white;
   margin-left: 1em;
 }
@@ -613,7 +624,7 @@ footer #footer2-geral #listas_footer2 .footer2_listas li:first-child {
   text-transform: uppercase;
   font-weight: 300;
   font-size: large;
-  color: #F5F5DC;
+  color: #f5f5dc;
 }
 footer #footer2-geral #lista_horizontal {
   margin-left: 14%;
