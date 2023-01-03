@@ -124,6 +124,13 @@ header .listheader {
     display: none;
   }
 }
+@media (max-width: 700px) {
+  #header1-background .header1 #listbottom {
+    font-size: 22px;
+    padding-left: 5px;
+    display: block;
+  }
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /*form*/
