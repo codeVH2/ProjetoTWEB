@@ -70,28 +70,22 @@ header {
 #header1-background {
   background-color: #f3f2ed;
   .header1 {
-    //   display: grid;
-    //   grid-template-columns: auto auto auto auto auto auto;
-    //    grid-template-rows: 100px;
-    display: flex;
-    width: 100px;
+    border: yellow 2px solid;
+    display: flex; 
     padding: 20px 0;
     margin-left: 14%;
     margin-right: 14%;
+    align-items: center;
 
-    #img2header {
-      display: flex;
-      align-items: center;
-      grid-column-start: 1;
-      grid-column-end: 2;
+    button{
+      display: none;
     }
 
     #listbottom {
+      border: red 2px solid;
       display: flex;
       align-items: center;
-      grid-column-start: 8;
-      grid-column-end: 9;
-      margin-left: 12%;
+      margin-left: auto;
 
       #principal {
         color: #6f6d66;
@@ -129,6 +123,28 @@ header {
         }
       }
     } /*da listbottom*/
+
+    @media (max-width: 1400px){
+          
+      padding: 0;
+
+      button{
+        padding: 10px 20px 10px 20px;
+        display: block;
+        margin-left: auto;
+        height: 40px;
+        border-radius: 3px;
+        background: #42413d;
+        color: #d6d3c5;
+        white-space: nowrap;
+        font-weight: 400;
+        text-transform: uppercase;  
+      }
+
+      #listbottom{
+        display: none;
+      }
+    }
   }
 }
 

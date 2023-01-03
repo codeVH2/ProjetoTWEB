@@ -60,25 +60,22 @@ header .listheader {
   background-color: #f3f2ed;
 }
 #header1-background .header1 {
+  border: yellow 2px solid;
   display: flex;
-  width: 100px;
   padding: 20px 0;
   margin-left: 14%;
   margin-right: 14%;
+  align-items: center;
   /*da listbottom*/
 }
-#header1-background .header1 #img2header {
-  display: flex;
-  align-items: center;
-  grid-column-start: 1;
-  grid-column-end: 2;
+#header1-background .header1 button {
+  display: none;
 }
 #header1-background .header1 #listbottom {
+  border: red 2px solid;
   display: flex;
   align-items: center;
-  grid-column-start: 8;
-  grid-column-end: 9;
-  margin-left: 12%;
+  margin-left: auto;
   /*dropdown menu*/
 }
 #header1-background .header1 #listbottom #principal {
@@ -106,6 +103,26 @@ header .listheader {
 #header1-background .header1 #listbottom .dp-menu:hover #dp-menu-content li {
   border: 1px solid #a2a099;
   padding: 0.5em;
+}
+@media (max-width: 1400px) {
+  #header1-background .header1 {
+    padding: 0;
+  }
+  #header1-background .header1 button {
+    padding: 10px 20px 10px 20px;
+    display: block;
+    margin-left: auto;
+    height: 40px;
+    border-radius: 3px;
+    background: #42413d;
+    color: #d6d3c5;
+    white-space: nowrap;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  #header1-background .header1 #listbottom {
+    display: none;
+  }
 }
 
 /*---------------------------------------------------------------------------------------------*/
