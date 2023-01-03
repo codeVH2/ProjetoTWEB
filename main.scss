@@ -16,7 +16,7 @@ header {
   color: rgba(255, 255, 255, 0.66);
   background-color: #000;
 
-  span{
+  span {
     display: none;
   }
 
@@ -51,17 +51,15 @@ header {
     height: 100%;
   }
 
-  @media (max-width: 700px){
-
-    li{
+  @media (max-width: 700px) {
+    li {
       display: none;
     }
 
-    span{
+    span {
       display: block;
     }
-
-}
+  }
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -70,13 +68,13 @@ header {
 #header1-background {
   background-color: #f3f2ed;
   .header1 {
-    display: flex; 
+    display: flex;
     padding: 20px 0;
     margin-left: 14%;
     margin-right: 14%;
     align-items: center;
 
-    button{
+    button {
       display: none;
     }
 
@@ -122,11 +120,10 @@ header {
       }
     } /*da listbottom*/
 
-    @media (max-width: 1400px){
-          
+    @media (max-width: 1400px) {
       padding: 0;
 
-      button{
+      #btn-menu {
         padding: 10px 20px 10px 20px;
         display: block;
         margin-left: auto;
@@ -136,53 +133,65 @@ header {
         color: #d6d3c5;
         white-space: nowrap;
         font-weight: 400;
-        text-transform: uppercase;  
+        text-transform: uppercase;
       }
 
-      #listbottom{
+      #listbottom {
+        position: fixed;
         display: none;
+
+        &.active {
+          margin-left: 70%;
+          display: block;
+          top: 0;
+          z-index: 0;
+          overflow-x: hidden;
+          overflow-y: auto;
+          width: 220px;
+          height: 100%;
+          background: #353431;
+        }
+
+        #principal{
+          &.active2{
+            margin-left: 10px;
+            border-bottom: solid 1px lightcyan;
+            flex-direction: column;
+            
+          }
+        }
+        
       }
     }
-
-    .hamburger{
+    /*--------------HAMBURGER MENU---------------------------*/
+    .hamburger {
       display: none;
       border-radius: 10%;
       background: #42413d;
       cursor: pointer;
 
-      .bar{
+      .bar {
         background-color: #d6d3c5;
         display: block;
         width: 20px;
         height: 4px;
         margin: 4px;
         border-radius: 5%;
-
       }
     }
 
-    @media (max-width: 700px){
-
-      button{
+    @media (max-width: 700px) {
+      #btn-menu {
         display: none;
       }
 
-      #listbottom{
-        display: none;
-      }
-      .hamburger{
+      .hamburger {
         margin-left: auto;
         display: block;
       }
-
-
     }
-    
-
-
   }
 }
-
 /*---------------------------------------------------------------------------------------------*/
 /*form*/
 
@@ -444,8 +453,8 @@ header {
       padding: 1em;
       background: #e4e2d9;
     }
-    .home_texto{
-        padding-top:1.1em;
+    .home_texto {
+      padding-top: 1.1em;
       span {
         white-space: nowrap;
         text-transform: uppercase;
@@ -454,7 +463,6 @@ header {
     }
   }
 }
-
 
 /*---------------------------------------------------------------------------------------------*/
 
@@ -844,5 +852,3 @@ footer {
     }
   }
 }
-
-/*---------------------------------------------------------------------------------------------*/

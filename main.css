@@ -66,6 +66,7 @@ header .listheader {
   margin-right: 14%;
   align-items: center;
   /*da listbottom*/
+  /*--------------HAMBURGER MENU---------------------------*/
 }
 #header1-background .header1 button {
   display: none;
@@ -106,7 +107,7 @@ header .listheader {
   #header1-background .header1 {
     padding: 0;
   }
-  #header1-background .header1 button {
+  #header1-background .header1 #btn-menu {
     padding: 10px 20px 10px 20px;
     display: block;
     margin-left: auto;
@@ -119,7 +120,24 @@ header .listheader {
     text-transform: uppercase;
   }
   #header1-background .header1 #listbottom {
+    position: fixed;
     display: none;
+  }
+  #header1-background .header1 #listbottom.active {
+    margin-left: 70%;
+    display: block;
+    top: 0;
+    z-index: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 220px;
+    height: 100%;
+    background: #353431;
+  }
+  #header1-background .header1 #listbottom #principal.active2 {
+    margin-left: 10px;
+    border-bottom: solid 1px lightcyan;
+    flex-direction: column;
   }
 }
 #header1-background .header1 .hamburger {
@@ -137,10 +155,7 @@ header .listheader {
   border-radius: 5%;
 }
 @media (max-width: 700px) {
-  #header1-background .header1 button {
-    display: none;
-  }
-  #header1-background .header1 #listbottom {
+  #header1-background .header1 #btn-menu {
     display: none;
   }
   #header1-background .header1 .hamburger {
@@ -747,6 +762,4 @@ footer #footer2-geral #ultimo_footer #paragrafo_f2 {
 footer #footer2-geral #ultimo_footer #paragrafo_f2 span {
   color: white;
   font-weight: bold;
-}
-
-/*---------------------------------------------------------------------------------------------*//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
