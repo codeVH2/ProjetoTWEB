@@ -60,7 +60,6 @@ header .listheader {
   background-color: #f3f2ed;
 }
 #header1-background .header1 {
-  border: yellow 2px solid;
   display: flex;
   padding: 20px 0;
   margin-left: 14%;
@@ -72,7 +71,6 @@ header .listheader {
   display: none;
 }
 #header1-background .header1 #listbottom {
-  border: red 2px solid;
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -334,6 +332,46 @@ header .listheader {
 }
 
 /*---------------------------------------------------------------------------------------------*/
+/*HOME*/
+#home {
+  display: flex;
+  width: 80%;
+  margin-left: 10em;
+  padding-top: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+#home .home_caixa {
+  position: relative;
+  border: 2px solid #e4e2d9;
+  padding: 3em 5em 1em 5em;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+#home .home_caixa .home_bola {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -6em;
+  width: 3.6em;
+  height: 3.6em;
+  border-radius: 3em;
+  border-radius: 50%;
+  background-clip: padding-box;
+  padding: 1em;
+  background: #e4e2d9;
+}
+#home .home_caixa .home_texto {
+  padding-top: 1.1em;
+}
+#home .home_caixa .home_texto span {
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #0f9585;
+}
+
 /*---------------------------------------------------------------------------------------------*/
 /*Car-Cards*/
 #grid-car {
