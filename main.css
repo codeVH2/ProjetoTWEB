@@ -60,7 +60,6 @@ header .listheader {
   background-color: #f3f2ed;
 }
 #header1-background .header1 {
-  border: yellow 2px solid;
   display: flex;
   padding: 20px 0;
   margin-left: 14%;
@@ -72,7 +71,6 @@ header .listheader {
   display: none;
 }
 #header1-background .header1 #listbottom {
-  border: red 2px solid;
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -124,10 +122,29 @@ header .listheader {
     display: none;
   }
 }
+#header1-background .header1 .hamburger {
+  display: none;
+  border-radius: 10%;
+  background: #42413d;
+  cursor: pointer;
+}
+#header1-background .header1 .hamburger .bar {
+  background-color: #d6d3c5;
+  display: block;
+  width: 20px;
+  height: 4px;
+  margin: 4px;
+  border-radius: 5%;
+}
 @media (max-width: 700px) {
+  #header1-background .header1 button {
+    display: none;
+  }
   #header1-background .header1 #listbottom {
-    font-size: 22px;
-    padding-left: 5px;
+    display: none;
+  }
+  #header1-background .header1 .hamburger {
+    margin-left: auto;
     display: block;
   }
 }
