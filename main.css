@@ -511,6 +511,10 @@ header .listheader {
 /*---------------------------------------------------------------------------------------------*/
 /*----------------------------------------FORMJS------------------------------------------*/
 #formjs {
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
   margin-top: 4em;
   margin-left: 14%;
   margin-right: 14%;
@@ -519,19 +523,27 @@ header .listheader {
   padding-top: 15px;
 }
 #formjs input[type=text] {
-  background-color: #FFFFCC;
+  background-color: lightgray;
   color: black;
   padding: 12px 20px;
   border: black 1px solid;
   border-radius: 5px;
   cursor: pointer;
 }
-
-#preco_form {
-  margin-top: 3em;
-  margin-left: 27em;
-  width: 10%;
-  height: 70px;
+#formjs #div_pf {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#formjs #div_pf #preco_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: lightslategrey;
+  width: 100px;
+  height: 50px;
 }
 
 /*---------------------------------------------------------------------------------------------*/
