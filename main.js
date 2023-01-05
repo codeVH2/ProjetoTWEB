@@ -21,9 +21,9 @@ document.getElementById("preco_form").onclick=function(event){
     let precofinal;
 
 
-    matricula=2023-matricula;
+    matricula=2022-matricula;
     if(matricula>10){
-        matricula=(matricula-10)*0.05 + 10*0.04;
+        matricula=(10*0.05) + (matricula-10)*0.04;
     } else {
         matricula=matricula*0.05;
     }
@@ -40,7 +40,7 @@ document.getElementById("preco_form").onclick=function(event){
 
     precofinal=(preco*quilometragem)*(1-matricula);
 
-    document.getElementById("preco_final").value=precofinal;
+    document.getElementById("preco_final").value=precofinal.toFixed(0);
 
     }
 
