@@ -32,8 +32,8 @@ header #sapo_logo {
 header .cabecalho {
   display: flex;
   max-width: 100%;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 header .listheader {
   padding-top: 0px;
@@ -62,8 +62,8 @@ header .listheader {
 #header1-background .header1 {
   display: flex;
   padding: 20px 0;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
   align-items: center;
   /*da listbottom*/
   /*--------------HAMBURGER MENU---------------------------*/
@@ -110,7 +110,7 @@ header .listheader {
   #header1-background .header1 #btn-menu {
     padding: 10px 20px 10px 20px;
     display: block;
-    margin-left: auto;
+    margin-left: 2%;
     height: 40px;
     border-radius: 3px;
     background: #42413d;
@@ -124,7 +124,7 @@ header .listheader {
     display: none;
   }
   #header1-background .header1 #listbottom.active {
-    margin-left: 70%;
+    margin-left: 77.5%;
     display: block;
     top: 0;
     z-index: 10;
@@ -159,7 +159,7 @@ header .listheader {
     display: none;
   }
   #header1-background .header1 .hamburger {
-    margin-left: auto;
+    margin-left: 2%;
     display: block;
   }
 }
@@ -283,8 +283,8 @@ header .listheader {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
   padding-top: 5px;
   gap: 10px;
 }
@@ -380,8 +380,8 @@ header .listheader {
   flex-wrap: wrap;
   gap: 5px;
   margin-top: 4em;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 #formjs .formjs_textos {
   padding-top: 15px;
@@ -413,8 +413,8 @@ header .listheader {
 #div_maior {
   display: none;
   margin-top: 4em;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
   justify-content: space-around;
 }
 #div_maior .estado {
@@ -529,8 +529,8 @@ footer #footer2 {
 }
 footer #footer2 #caixaf2 {
   display: flex;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 footer #footer2 #caixaf2 #texto p {
   font-family: "Roboto", sans-serif;
@@ -574,7 +574,7 @@ footer #footer2-geral #footer2-primeira {
 }
 footer #footer2-geral #footer2-primeira #autosapo_footer2 {
   display: flex;
-  margin-left: 14%;
+  margin-left: 7%;
 }
 footer #footer2-geral #footer2-primeira #autosapo_footer2 #sapo_footer {
   color: #d6d3c5;
@@ -593,7 +593,7 @@ footer #footer2-geral #footer2-primeira #autosapo_footer2 #auto_footer {
 }
 footer #footer2-geral #footer2-primeira #redes_sociais {
   margin-left: auto;
-  margin-right: 14%;
+  margin-right: 7%;
   display: flex;
 }
 footer #footer2-geral #footer2-primeira #redes_sociais span {
@@ -628,8 +628,8 @@ footer #footer2-geral #listas_footer2 {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #6f6d66;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
   max-width: 100%;
   flex-wrap: wrap;
 }
@@ -648,8 +648,8 @@ footer #footer2-geral #listas_footer2 .footer2_listas li:first-child {
   color: #f5f5dc;
 }
 footer #footer2-geral #lista_horizontal {
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
   min-height: 30px;
   padding: 0.5em 0;
   list-style: none;
@@ -671,8 +671,8 @@ footer #footer2-geral #lista_horizontal2 li {
 footer #footer2-geral #ultimo_footer {
   display: flex;
   border-top: 1px solid #6f6d66;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 footer #footer2-geral #ultimo_footer #autosapofooterimg {
   width: 140px;

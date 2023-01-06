@@ -36,8 +36,8 @@ header {
   .cabecalho {
     display: flex;
     max-width: 100%;
-    margin-left: 14%;
-    margin-right: 14%;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 
   .listheader {
@@ -70,8 +70,8 @@ header {
   .header1 {
     display: flex;
     padding: 20px 0;
-    margin-left: 14%;
-    margin-right: 14%;
+    margin-left: 7%;
+    margin-right: 7%;
     align-items: center;
 
     button {
@@ -126,7 +126,7 @@ header {
       #btn-menu {
         padding: 10px 20px 10px 20px;
         display: block;
-        margin-left: auto;
+        margin-left: 2%;
         height: 40px;
         border-radius: 3px;
         background: #42413d;
@@ -141,7 +141,7 @@ header {
         display: none;
 
         &.active {
-          margin-left: 70%;
+          margin-left: 77.5%;
           display: block;
           top: 0;
           z-index: 10;
@@ -159,7 +159,10 @@ header {
             flex-direction: column;
           }
         }
+
       }
+
+
     }
     /*--------------HAMBURGER MENU---------------------------*/
     .hamburger {
@@ -184,7 +187,7 @@ header {
       }
 
       .hamburger {
-        margin-left: auto;
+        margin-left: 2%;
         display: block;
       }
     }
@@ -324,8 +327,8 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
   padding-top: 5px;
   gap: 10px;
 
@@ -428,8 +431,8 @@ header {
   flex-wrap: wrap;
   gap: 5px;
   margin-top: 4em;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
 
   .formjs_textos {
     padding-top: 15px;
@@ -463,8 +466,8 @@ header {
 #div_maior {                      
   display: none;
   margin-top: 4em;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 7%;
+  margin-right: 7%;
   justify-content: space-around;
 
   .estado {
@@ -593,8 +596,8 @@ footer {
     background-color: #f3f2ed;
     #caixaf2 {
       display: flex;
-      margin-left: 14%;
-      margin-right: 14%;
+      margin-left: 7%;
+      margin-right: 7%;
       #texto {
         p {
           font-family: "Roboto", sans-serif;
@@ -644,7 +647,7 @@ footer {
 
       #autosapo_footer2 {
         display: flex;
-        margin-left: 14%;
+        margin-left: 7%;
 
         #sapo_footer {
           color: #d6d3c5;
@@ -664,7 +667,7 @@ footer {
       }
       #redes_sociais {
         margin-left: auto;
-        margin-right: 14%;
+        margin-right: 7%;
         display: flex;
 
         span {
@@ -703,8 +706,8 @@ footer {
       display: flex;
       justify-content: space-between;
       border-top: 1px solid #6f6d66;
-      margin-left: 14%;
-      margin-right: 14%;
+      margin-left: 7%;
+      margin-right: 7%;
       max-width: 100%;
       flex-wrap: wrap;
 
@@ -728,8 +731,8 @@ footer {
     }
 
     #lista_horizontal {
-      margin-left: 14%;
-      margin-right: 14%;
+      margin-left: 7%;
+      margin-right: 7%;
       min-height: 30px;
       padding: 0.5em 0;
       list-style: none;
@@ -753,8 +756,8 @@ footer {
     #ultimo_footer {
       display: flex;
       border-top: 1px solid #6f6d66;
-      margin-left: 14%;
-      margin-right: 14%;
+      margin-left: 7%;
+      margin-right: 7%;
 
       #autosapofooterimg {
         width: 140px;
