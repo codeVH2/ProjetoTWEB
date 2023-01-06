@@ -40,7 +40,20 @@ document.getElementById("preco_form").onclick=function(event){
 
     precofinal=(preco*quilometragem)*(1-matricula);
 
-    document.getElementById("preco_final").value=precofinal.toFixed(0);
+    document.getElementById("preco_final").value=precofinal.toFixed(0);  
+
+
+    let preco_mauestado;
+    let preco_bomestado;
+    let preco_muitobomestado;
+    let euroSymbol = '\u20AC'; 
+    preco_mauestado=precofinal*0.6;
+    preco_bomestado=precofinal*1;
+    preco_muitobomestado=precofinal*1.1;
+    document.getElementById("preco_mauestado").textContent=preco_mauestado.toFixed(0) + euroSymbol;
+    document.getElementById("preco_bomestado").textContent=preco_bomestado.toFixed(0) + euroSymbol;
+    document.getElementById("preco_muitobomestado").textContent=preco_muitobomestado.toFixed(0) + euroSymbol;
+    document.getElementById("div_maior").classList.toggle("estados");
 
     }
 
